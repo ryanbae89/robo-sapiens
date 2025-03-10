@@ -1,6 +1,6 @@
 # robo-sapiens
 
-**Robo-Friends** is a project that LoRA fine-tunes LLMs on group chat data to mimic the personalities and writing styles of specific friend groups. It includes:
+**robo-sapiens** is a project that LoRA fine-tunes LLMs on group chat data to mimic the personalities and writing styles of specific friend groups. It includes:
 
 1. **Data Processing** (from raw chat exports to training-ready data)  
 2. **LLM Training** (LoRA fine-tuning on top of a base model)  
