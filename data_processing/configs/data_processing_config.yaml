@@ -1,0 +1,10 @@
+# configs/processing_pipeline_config.yaml
+
+data_parsing_params:
+  remove_non_text_messages: True
+  remove_system_messages: True
+
+training_data_params:
+  conversation_gap_minutes: 120
+  max_conversation_size: 20
+  n_train_max: 5000

@@ -1,0 +1,17 @@
+generation:
+  n_rounds: 10
+  speakers:
+  - John Doe
+  - Mary Jane
+  time_delay: 2
+inference:
+  do_sample: true
+  max_new_tokens: 256
+  repetition_penalty: 1.0
+  temperature: 0.9
+  top_p: 0.85
+prompt:
+  group_description: We are all good friends!
+  group_members:
+  - John Doe
+  - Mary Jane

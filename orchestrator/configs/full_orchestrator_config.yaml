@@ -1,0 +1,22 @@
+chat_info:
+  group_members: ["John Doe", "Mary Jane"]
+  group_description: "We are all good friends!"
+  phone_number_mapping:
+    "1234567890": "John Doe"
+    "2345678901": "Mary Jane"
+
+data_processing_pipeline_params:
+  config: data_processing/configs/data_processing_config.yaml
+  raw_input_file: path/to/raw/input/file
+  output_dir: ../robo-sapiens-outputs
+
+training_pipeline_params:
+  config: training/configs/training_config.yaml
+  output_dir: ../robo-sapiens-outputs
+
+inference_test_params:
+  model_config: inference/configs/model_config.yaml
+  generation_config: inference/configs/generation_config.yaml
+  test_speaker: John Doe
+  test_prompt:  Hello world!
+  
